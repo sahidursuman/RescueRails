@@ -8,7 +8,7 @@ RescueRails::Application.routes.draw do
   end
 
   resources :adoption_app
-
+  resources :donations
   resources :comments, except: %i[new]
 
   resources :users

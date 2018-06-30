@@ -357,6 +357,8 @@ GEM
       net-ssh (>= 2.8.0)
     strip_attributes (1.8.0)
       activemodel (>= 3.0, < 6.0)
+    stripe (3.17.0)
+      faraday (~> 0.10)
     sucker_punch (1.5.1)
       celluloid (= 0.16.0)
     term-ansicolor (1.6.0)
@@ -455,6 +457,7 @@ DEPENDENCIES
   rubocop
   sass-rails
   strip_attributes
+  stripe
   sucker_punch (~> 1.5.1)
   therubyracer
   to_xls
